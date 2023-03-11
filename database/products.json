@@ -1,29 +1,272 @@
 [
     {
-        "title": "producto1",
-        "description": "description1",
-        "price": 11,
-        "thumbnail": "thumbnail1",
-        "code": 11,
-        "stock": 1,
-        "id": "6baacb83-cfc4-48eb-89a1-2c1ecaf1b68c"
+        "id": 1,
+        "title": "torsemide",
+        "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "price": 24,
+        "thumbnail": "http://dummyimage.com/197x260.png/5fa2dd/ffffff",
+        "code": "5483289390",
+        "stock": 65
     },
     {
-        "title": "producto2",
-        "description": "description2",
-        "price": 21,
-        "thumbnail": "thumbnail2",
-        "code": 21,
-        "stock": 2,
-        "id": "910935e0-1035-49f4-a0b1-0c30ab5d9f73"
+        "id": 2,
+        "title": "Famotidine",
+        "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "price": 70,
+        "thumbnail": "http://dummyimage.com/156x126.png/ff4444/ffffff",
+        "code": "2363872258",
+        "stock": 77
     },
     {
-        "title": "producto3",
-        "description": "description3",
+        "id": 3,
+        "title": "potassium chloride",
+        "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+        "price": 97,
+        "thumbnail": "http://dummyimage.com/195x274.png/5fa2dd/ffffff",
+        "code": "3357963345",
+        "stock": 30
+    },
+    {
+        "id": 4,
+        "title": "Octinoxate, Octisalate, and Oxybenzone",
+        "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+        "price": 53,
+        "thumbnail": "http://dummyimage.com/120x163.png/cc0000/ffffff",
+        "code": "3974623132",
+        "stock": 29
+    },
+    {
+        "id": 5,
+        "title": "Warfarin Sodium",
+        "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+        "price": 92,
+        "thumbnail": "http://dummyimage.com/230x177.png/dddddd/000000",
+        "code": "4672247864",
+        "stock": 39
+    },
+    {
+        "id": 6,
+        "title": "Butalbital, Acetaminophen, and Caffeine",
+        "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+        "price": 91,
+        "thumbnail": "http://dummyimage.com/105x167.png/cc0000/ffffff",
+        "code": "1678984035",
+        "stock": 98
+    },
+    {
+        "id": 7,
+        "title": "Camphor Menthol",
+        "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
         "price": 31,
-        "thumbnail": "thumbnail3",
-        "code": 31,
-        "stock": 3,
-        "id": "73d5b97c-f5ae-44ba-a6f0-44e5e81b6d0b"
+        "thumbnail": "http://dummyimage.com/202x168.png/dddddd/000000",
+        "code": "9285023517",
+        "stock": 80
+    },
+    {
+        "id": 8,
+        "title": "Acetaminophen, Guaifenesin, and Phenylephrine Hydrochloride",
+        "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "price": 44,
+        "thumbnail": "http://dummyimage.com/102x206.png/cc0000/ffffff",
+        "code": "2473743126",
+        "stock": 65
+    },
+    {
+        "id": 9,
+        "title": "LIDOCAINE HYDROCHLORIDE",
+        "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+        "price": 91,
+        "thumbnail": "http://dummyimage.com/194x134.png/cc0000/ffffff",
+        "code": "9797846636",
+        "stock": 29
+    },
+    {
+        "id": 10,
+        "title": "Meloxicam",
+        "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "price": 2,
+        "thumbnail": "http://dummyimage.com/212x185.png/5fa2dd/ffffff",
+        "code": "3728989797",
+        "stock": 96
+    },
+    {
+        "id": 11,
+        "title": "calcium carbonate",
+        "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+        "price": 62,
+        "thumbnail": "http://dummyimage.com/212x208.png/dddddd/000000",
+        "code": "6312837114",
+        "stock": 93
+    },
+    {
+        "id": 12,
+        "title": "Aluminum Zirconium Tetrachlorohydrex GLY",
+        "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+        "price": 56,
+        "thumbnail": "http://dummyimage.com/128x138.png/dddddd/000000",
+        "code": "3042271366",
+        "stock": 63
+    },
+    {
+        "id": 13,
+        "title": "risperidone",
+        "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+        "price": 8,
+        "thumbnail": "http://dummyimage.com/210x290.png/cc0000/ffffff",
+        "code": "9112615382",
+        "stock": 98
+    },
+    {
+        "id": 14,
+        "title": "Ranitidine hydrochloride",
+        "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+        "price": 45,
+        "thumbnail": "http://dummyimage.com/103x207.png/dddddd/000000",
+        "code": "2702403425",
+        "stock": 46
+    },
+    {
+        "id": 15,
+        "title": "Russian Thistle",
+        "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+        "price": 51,
+        "thumbnail": "http://dummyimage.com/148x243.png/5fa2dd/ffffff",
+        "code": "3171942739",
+        "stock": 71
+    },
+    {
+        "id": 16,
+        "title": "ECHINACEA ANGUSTIFOLIA, ECHINACEA PURPUREA, ACONITUM NAPELLUS, ARNICA MONTANA, CALENDULA OFFICIANALIS, HAMAMELIS VIRGINIANA, BELLADONNA, BELLIS PERENNIS, CHAMOMILLIA, MILLEFOLIUM, HYPERICUM PERFORATUM",
+        "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+        "price": 73,
+        "thumbnail": "http://dummyimage.com/249x184.png/dddddd/000000",
+        "code": "2317831595",
+        "stock": 68
+    },
+    {
+        "id": 17,
+        "title": "phendimetrazine tartrate",
+        "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+        "price": 71,
+        "thumbnail": "http://dummyimage.com/124x128.png/ff4444/ffffff",
+        "code": "9375006247",
+        "stock": 60
+    },
+    {
+        "id": 18,
+        "title": "Dibasic sodium phosphate, Monobasic sodium phosphate",
+        "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+        "price": 37,
+        "thumbnail": "http://dummyimage.com/104x271.png/ff4444/ffffff",
+        "code": "2293449033",
+        "stock": 89
+    },
+    {
+        "id": 19,
+        "title": "clonidine hydrochloride",
+        "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+        "price": 4,
+        "thumbnail": "http://dummyimage.com/186x287.png/cc0000/ffffff",
+        "code": "2527010717",
+        "stock": 97
+    },
+    {
+        "id": 20,
+        "title": "temazepam",
+        "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+        "price": 58,
+        "thumbnail": "http://dummyimage.com/118x232.png/ff4444/ffffff",
+        "code": "4409003178",
+        "stock": 73
+    },
+    {
+        "id": 21,
+        "title": "nadolol",
+        "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+        "price": 10,
+        "thumbnail": "http://dummyimage.com/197x112.png/ff4444/ffffff",
+        "code": "9291047651",
+        "stock": 96
+    },
+    {
+        "id": 22,
+        "title": "risperidone",
+        "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+        "price": 40,
+        "thumbnail": "http://dummyimage.com/138x112.png/dddddd/000000",
+        "code": "9768887117",
+        "stock": 56
+    },
+    {
+        "id": 23,
+        "title": "Mucor Mixture",
+        "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+        "price": 97,
+        "thumbnail": "http://dummyimage.com/211x274.png/dddddd/000000",
+        "code": "3625156121",
+        "stock": 66
+    },
+    {
+        "id": 24,
+        "title": "Ramipril",
+        "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+        "price": 61,
+        "thumbnail": "http://dummyimage.com/191x136.png/dddddd/000000",
+        "code": "0147253667",
+        "stock": 86
+    },
+    {
+        "id": 25,
+        "title": "Ampicillin Sodium",
+        "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+        "price": 53,
+        "thumbnail": "http://dummyimage.com/173x178.png/5fa2dd/ffffff",
+        "code": "8090527582",
+        "stock": 72
+    },
+    {
+        "id": 26,
+        "title": "Octinoxate and Oxybenzone",
+        "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+        "price": 64,
+        "thumbnail": "http://dummyimage.com/175x178.png/5fa2dd/ffffff",
+        "code": "7014309862",
+        "stock": 75
+    },
+    {
+        "id": 27,
+        "title": "oxacillin sodium",
+        "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+        "price": 19,
+        "thumbnail": "http://dummyimage.com/152x149.png/cc0000/ffffff",
+        "code": "0869844490",
+        "stock": 31
+    },
+    {
+        "id": 28,
+        "title": "ALLANTOIN, ZINC OXIDE",
+        "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+        "price": 37,
+        "thumbnail": "http://dummyimage.com/200x183.png/ff4444/ffffff",
+        "code": "3166017623",
+        "stock": 58
+    },
+    {
+        "id": 29,
+        "title": "MINERAL OIL,PETROLATUM,PHENYLEPHRINE,SHARK LIVER OIL",
+        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "price": 31,
+        "thumbnail": "http://dummyimage.com/134x195.png/ff4444/ffffff",
+        "code": "7659021656",
+        "stock": 74
+    },
+    {
+        "id": 30,
+        "title": "Enoxaparin sodium",
+        "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "price": 35,
+        "thumbnail": "http://dummyimage.com/157x241.png/dddddd/000000",
+        "code": "8159759193",
+        "stock": 69
     }
 ]

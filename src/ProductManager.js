@@ -33,11 +33,10 @@ export class ProductManager {
     }
 
     async #cargar() {
-        let file, prod, id = null
         try {
             if (loadSuccess) {
-                file = await fs.readFile(this.#path, 'utf-8')
-                prod = await JSON.parse(file)
+                const file = await fs.readFile(this.#path, 'utf-8')
+                const prod = await JSON.parse(file)
                 prod.forEach(element => {
                     this.#products.push(element)
                 })
@@ -45,7 +44,7 @@ export class ProductManager {
                 return
             } else return
         } catch (error) {
-            throw('No se pudo cargar el archivo'+error)
+            throw ('No se pudo cargar el archivo')
         }
     }
 
@@ -58,8 +57,8 @@ export class ProductManager {
         await this.#cargar()
         const prodsLimited = []
 
-        for (let i = 0; i <= limit; i++) { 
-            if(i<this.#products.length) prodsLimited.push(this.#products[i])
+        for (let i = 0; i < limit; i++) {
+            if (i < this.#products.length) prodsLimited.push(this.#products[i])
         }
         return prodsLimited
     }
@@ -86,10 +85,10 @@ export class ProductManager {
     async getProductById(id) {
         await this.#cargar()
         try {
-            const product = this.#products.find((prod) => prod.id === id)
+            const product = await this.#products.find((prod)=>prod.id === parseInt(id))
             return product
         } catch (error) {
-            throw('--Not found--')
+            return null
         }
 
     }
